@@ -2,67 +2,106 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Adalab Web Starter Kit</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <link rel="stylesheet" href="./assets/css/main.css" />
-    <link rel="icon" href="./assets/images/favicon.png" />
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Práctica Spotify</title>
   </head>
 
   <body>
-    <div class="page">
-      <header class="page__header">
-        <img src="./assets/images/logo-adalab.png" alt="Adalab">
-        <h1>Bienvenidos a Adalab</h1>
-      </header>
+    <header class="header">
+      <img class="logo" src="./assets/images/logo-spotify.jpg" alt="Spotify logo" />
 
-      <main class="page__main">
-        <h2>Este es el starter kit de Adalab</h2>
-        <p>Lo usamos para aprender:</p>
-        <ul class="main__list">
-          <li>Sass</li>
-          <li>HTML partials</li>
-          <li>Gulp</li>
-          <li>y muchas cosas más</li>
-        </ul>
-        <p>Si quieres saber cúales son las rutas correctas para:</p>
-        <ul class="main__list">
-          <li>
-            una <code class="code">&lt;img /&gt;</code> mira el fichero
-            <code class="code">./src/html/partials/header.html</code>.
-          </li>
-          <li>
-            y para un <code class="code">background-image</code> mira el fichero
-            <code class="code">./src/html/scss/layout/_page.scss</code>.
-          </li>
-        </ul>
-        <p>
-          Si quieres saber cómo usar un partial HTML dentro de otro partial, busca en la carperta
-          <code class="code">./src/html/index.html</code> y
-          <code class="code">./src/html/partials/main.html</code>, y verás cómo estamos creando estos
-          enlaces:
+      <div class="header_container">
+        <img
+          class="botton_lines"
+          src="./assets/images/menu-icon-button.jpg"
+          alt="botton lines"
+        />
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="blue">
+        <h1 class="prueba_premium">Prueba Premium <br />Gratis 3 meses</h1>
+        <p class="millones">
+          Escucha millones de canciones sin<br />
+          anuncios, a la carta y sin<br />
+          conexión.
         </p>
-        <ul class="main__list">
-          <li>
-            <a class="link__adalab" href="https://adalab.es">Adalab</a>
 
-          </li>
-          <li>
-            <a class="" href="./more-info.html">Más info del starter kit</a>
+        <nav class="green_box">
+          <div class="botton_planes">VER PLANES</div>
+        </nav>
 
-          </li>
+        <p class="terminos">
+          Rigen terminos y condiciones. Los tres meses gratis no están<br />
+          disponibles para usuarios que ya hayan probado Premium
+        </p>
+      </div>
+
+      <section class="white">
+        <h2>¿Por qué pasarte a Premium?</h2>
+
+        <ul>
+          <img
+            src="https://raw.githubusercontent.com/Adalab/ejercicios-de-los-materiales/main/modulo-1-spotify/images/benefit-1.png"
+          />
+          <li>Descarga música.</li>
+          <li>Llévala siempre contigo.</li>
         </ul>
-      </main>
 
-      <footer class="page__footer">
-        <small>
-          &copy; Todos los derechos reservados
-          <a class="link__adalab" href="https://adalab.es">Adalab</a>
+        <ul>
+          <img
+            src="https://raw.githubusercontent.com/Adalab/ejercicios-de-los-materiales/main/modulo-1-spotify/images/benefit-2.png"
+          />
+          <li>Sin anuncios.</li>
+          <li>Disfruta de música sin interrupciones.</li>
+        </ul>
 
-        </small>
-      </footer>
+        <ul>
+          <img
+            src="https://raw.githubusercontent.com/Adalab/ejercicios-de-los-materiales/main/modulo-1-spotify/images/benefit-3.png"
+          />
+          <li>Escucha lo que quieras.</li>
+          <li>Incluso en el móvil.</li>
+        </ul>
 
-    </div>
-    <script src="./assets/js/main.js"></script>
+        <ul>
+          <img
+            src="https://raw.githubusercontent.com/Adalab/ejercicios-de-los-materiales/main/modulo-1-spotify/images/benefit-4.png"
+          />
+          <li>Salta todas las canciones que quieras.</li>
+          <li>Simplemente dale a siguiente.</li>
+        </ul>
+      </section>
+    </main>
+
+
+
+    <footer class="footer">
+      <div class="footer_container">
+
+        <ul class="section_footer_left">
+          
+            <li>Legal </li>
+            <li>Cookis</li>
+        
+          <p>Información sobre los anuncios</p>
+        </ul>
+        
+        <ul class="section_footer_right">
+          <div class="españa_flag">
+            <li>España</li>
+            <img class="flag" 
+              src="https://raw.githubusercontent.com/Adalab/ejercicios-de-los-materiales/6b779a268197883460e6cadd494e901c8f6fe080/modulo-1-spotify/images/es.svg" alt="bandera española"/>      
+          </div>    
+          <p>© 2019 Spotify AB</p>
+        </ul>
+    </footer>
+
+
+
   </body>
 </html>

@@ -1,8 +1,48 @@
-.page__footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100vw;
-  padding: 1rem;
-  color: $color-secondary;
+footer {
+  background-color: black;
+  font-size: 12px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  width: 100%;
+}
+.footer_container {
+  display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+  margin-top: 10px;
+  justify-content: space-between;
+
+  width: 100%;
+}
+
+.section_footer_left {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.section_footer_left li {
+  list-style: none;
+}
+
+.section_footer_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-right: 30px;
+}
+.españa_flag {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin-bottom: 10px;
+}
+.flag {
+  height: 20px;
+  margin-left: 5px;
+}
+.section_footer_right p {
+  margin-bottom: 10px;
 }

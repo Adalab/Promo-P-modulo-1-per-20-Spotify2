@@ -1,7 +1,21 @@
+<<<<<<< HEAD
 .header {
   background-color: black;
   color: white;
   display: flex;
+=======
+/*.page__header {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 3rem;
+}*/
+
+/*aqui empieza el header*/
+.header {
+  background-color: black;
+  color: white;
+  display: flex;
+>>>>>>> 76a26a0b8bb9f64a6253e293a520251cfddc4652
   flex-direction: row;
   justify-content: space-between;
 }
